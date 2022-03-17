@@ -3,6 +3,7 @@ import About from '../components/About'
 import Homepage from '../components/Homepage'
 import Navbar from '../components/Navbar'
 import Skills from '../components/Skills'
+import Works from '../components/Works'
 export default function Home() {
   return (
     <div>
@@ -14,7 +15,8 @@ export default function Home() {
       <Navbar />
       <Homepage />
       <About />
-      <Skills/>
+      <Skills />
+      <Works/>
     </div>
   )
 }

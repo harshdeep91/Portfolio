@@ -9,7 +9,7 @@ const Works = () => {
                   <p className="py-6">//Check out my Projects</p>
               </div>
               <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                  {arr.map(data =>  <Work LandImage={data.LandImage} title={data.title} code={data.code} demo={data.demo} />)}
+                  {arr.map(data => <Work key={data.id} LandImage={data.LandImage} title={data.title} code={data.code} demo={data.demo} />)}
                   
               </div>
           </div>

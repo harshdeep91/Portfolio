@@ -9,10 +9,10 @@ const Work = ({ LandImage, title, demo, code }) => {
                 {title}
                 </span>
                 <div className="pt-8 text-center">
-                    <a className='bg-white text-gray-700 rounded-lg font-bold text-lg m-2 px-4 py-3' href={demo} target="_blank">
+                    <a className='bg-white text-gray-700 rounded-lg font-bold text-lg m-2 px-4 py-3' href={demo} target="_blank" rel="noreferrer">
                         <button>Demo</button>
                     </a>
-                    <a className='bg-white text-gray-700 rounded-lg font-bold text-lg m-2 px-4 py-3' href={code} target="_blank">
+                    <a className='bg-white text-gray-700 rounded-lg font-bold text-lg m-2 px-4 py-3' href={code} target="_blank" rel="noreferrer">
                       <button>Code</button>
                     </a>
                 </div>

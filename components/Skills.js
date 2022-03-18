@@ -14,7 +14,7 @@ const Skills = () => {
           items-center mx-auto text-gray-300'>
               <div>
                   <p className=' text-4xl border-b-4 border-pink-600 inline'>Skills</p>
-                  <p className='py-4'>//These are the technologies i am currently working on</p>
+                  <p className='py-4'>&#8427; These are the technologies i am currently working on</p>
               </div>
               <div className='grid w-full grid-cols-2 sm:grid-cols-3 py-8 text-center gap-4'>
                   <Skill image={html} text="HTML" />

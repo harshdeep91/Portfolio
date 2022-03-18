@@ -5,14 +5,14 @@ const Work = ({ LandImage, title, demo, code }) => {
           
           {/* Hover Effect */}
           <div className='z-10 opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='text-2xl font-bold text-white tracking-wider mx-3 block text-center'>
                 {title}
                 </span>
                 <div className="pt-8 text-center">
-                    <a className='bg-white text-gray-700 rounded-lg font-bold text-lg m-2 px-4 py-3' href={demo} >
+                    <a className='bg-white text-gray-700 rounded-lg font-bold text-lg m-2 px-4 py-3' href={demo} target="_blank">
                         <button>Demo</button>
                     </a>
-                    <a className='bg-white text-gray-700 rounded-lg font-bold text-lg m-2 px-4 py-3' href={code}>
+                    <a className='bg-white text-gray-700 rounded-lg font-bold text-lg m-2 px-4 py-3' href={code} target="_blank">
                       <button>Code</button>
                     </a>
                 </div>

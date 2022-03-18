@@ -1,7 +1,5 @@
 import Image from 'next/image';
-const Work = ({ LandImage, title, demo, code }) => {
-
-  
+const Work = ({ LandImage, title, demo, code }) => {  
   return (
       <div className="shadow-lg shadow-[#040c16] group container rounded-2xl flex justify-center items-center mx-auto h-64 hover:bg-gradient-to-r from-indigo-700 to-blue-900 duration-500 relative ">
           

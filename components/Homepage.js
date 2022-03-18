@@ -1,8 +1,8 @@
-import {HiArrowNarrowRight} from 'react-icons/hi'
+import { HiArrowNarrowRight } from 'react-icons/hi'
 const Homepage = () => {
   return (
-    <div name="homepage" className="w-full h-screen bg-[#0a192f]">
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full '>
+    <div name="homepage" className="w-full h-screen bg-[#0a192f] absolute z-0">
+      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-600'>Hi,my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-gray-300'>Harshdeep Raghuwanshi</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-gray-500'>I'm a Frontend Developer</h2>

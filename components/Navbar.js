@@ -6,7 +6,7 @@ import Image from 'next/image';
 import List from './List';
 import {Link} from 'react-scroll'
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
   const handleclick = () => setNav(!nav);
   return (
     <div className="w-full flex justify-between items-center h-[80px] bg-[#0a192f] text-gray-300 px-4
@@ -78,10 +78,10 @@ const Navbar = () => {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col left-0 top-[35%] w-40'>
         <ul>
-          <List color="bg-blue-400" text="Linkedin" icon={<FaLinkedin size={30} />} />
-          <List color="bg-slate-600" text="Github" icon={<FaGithub size={30} />} />
-          <List color="bg-green-600" text="Email" icon={<HiOutlineMail size={30} />} />
-          <List color="bg-indigo-800" text="Resume" icon={<BsFillPersonLinesFill size={30}/>} />
+          <List color="bg-blue-400" text="Linkedin" icon={<FaLinkedin size={30} />} src="https://www.linkedin.com/in/harshdeep-raghuwanshi-4954b51a4/"/>
+          <List color="bg-slate-600" text="Github" icon={<FaGithub size={30} />} src="https://github.com/harshdeep91"/>
+          <List color="bg-green-600" text="Email" icon={<HiOutlineMail size={30} />} src="mailto:harshdeepraghuwanshi91@gmail.com"/>
+          <List color="bg-indigo-800" text="Resume" icon={<BsFillPersonLinesFill size={30}/> } src="https://drive.google.com/file/d/1A4GqQqfJ3-rjWVRRC0L3P7dRv4pSQhiC/view?usp=sharing" />
           
           
     

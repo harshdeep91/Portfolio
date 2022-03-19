@@ -12,7 +12,7 @@ const Skills = () => {
       <div name='skills' className='bg-[#0a192f] w-full h-screen'>
            <div className='max-w-[1000px] flex flex-col justify-center h-full 
           items-center mx-auto text-gray-300'>
-              <div>
+              <div className='mx-4'>
                   <p className=' text-4xl border-b-4 border-pink-600 inline'>Skills</p>
                   <p className='py-4'>&#8427; These are the technologies i am currently working on</p>
               </div>
